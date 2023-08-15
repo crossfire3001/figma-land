@@ -1,0 +1,50 @@
+@media screen and (max-width: 1229px) {
+
+
+}
+
+@media screen and (max-width: 799px) {
+
+    /*=============== HEADER & NAV ===============*/
+    .header {
+        padding: 16px 25px 16px 24px;
+    }
+
+    .header .container {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        gap: 82px;
+    }
+
+    .header .burger {
+        display: block;
+        color: #bbbbbb;
+    }
+
+    .header .menu {
+        display: none;
+    }
+
+    .header .action-btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 16px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    /*=============== HEADER & NAV ===============*/
+    .header .container {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 541px) {
+
+    /*=============== HEADER & NAV ===============*/
+    .header .button {
+        display: none;
+    }
+}
